@@ -24,7 +24,6 @@ This project is a real-time multiplayer Tic-Tac-Toe game with the following feat
 
 - **Node.js & npm:**  
 Download and install from [https://nodejs.org/](https://nodejs.org/).  
-Version 16,18 or 20
 
 ## Database Setup
 

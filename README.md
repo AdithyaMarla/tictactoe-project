@@ -20,6 +20,12 @@ This project is a real-time multiplayer Tic-Tac-Toe game with the following feat
 - **Authentication:** JWT (JSON Web Tokens)
 - **Styling:** CSS with animations
 
+### Prerequisites
+
+- **Node.js & npm:**  
+Download and install from [https://nodejs.org/](https://nodejs.org/).  
+Version 16,18 or 20
+
 ## Database Setup
 
 The project uses MySQL to store user data (username, email, password).
@@ -76,30 +82,34 @@ module.exports = db;
 ```
 
 ## Local Setup Instructions
-Step 1: Clone Project
+### Step 1: Clone Project
 ```git
 git clone https://github.com/AdithyaMarla/tictactoe-project.git
 cd tictactoe-project
 ```
-Step 2: Backend Setup
+### Step 2: Backend Setup
+```
 cd backend_temp
 npm install
 node server.js
+```
 
 Backend runs on http://localhost:5000
 
-Step 3: Frontend Setup
+### Step 3: Frontend Setup
+```
 cd ../frontend
 npm install
 npm install react-confetti --legacy-peer-deps
 npm start
+```
 
 Frontend runs on http://localhost:3000
 
 You can now login, register, create/join games, and play.
 
 
-### 5. Usage Instructions
+## Usage Instructions
 
 - Register a new user with username, email, and password.
 

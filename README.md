@@ -114,7 +114,7 @@ You can now login, register, create/join games, and play.
 
 - Login with your credentials.
 
-- Create second user in an alternate browser or incognito window
+- Create second user in an alternate browser or incognito window.
 
 - Create a new game or join an existing game using the Game ID.
 
